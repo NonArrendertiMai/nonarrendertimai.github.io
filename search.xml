@@ -1,13 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hexo功能记录</title>
-    <url>/2023/04/17/hello-world/</url>
-    <content><![CDATA[<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><p>代码栏</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>折叠</p>
+    <title>庇护圣所(Asylum Sanctorium)插件修改</title>
+    <url>/ESO/Asylum-Sanctorium-Addons/</url>
+    <content><![CDATA[<h1 id="插件介绍"><a href="#插件介绍" class="headerlink" title="插件介绍"></a>插件介绍</h1><p>庇护圣所(Asylum Sanctorium)常用插件一般包括：</p>
+<ol>
+<li>Asylum Tracker ：用于机制提醒。</li>
+<li>Asylum Sanctorium Status Panel ：用于监控mini boss狂暴与机制。</li>
+<li>vASHelper ：用于提示站位。</li>
+</ol>
 <span id="more"></span>
+<p>3款插件均无中文，Asylum Tracker与vASHelper无法在中文环境下正常使用，Asylum Sanctorium Status Panel在中文环境下工作正常。遂对Asylum Tracker与vASHelper进行修改。</p>
+<h1 id="插件修改"><a href="#插件修改" class="headerlink" title="插件修改"></a>插件修改</h1><h2 id="Asylum-Tracker"><a href="#Asylum-Tracker" class="headerlink" title="Asylum Tracker"></a>Asylum Tracker</h2><p>插件修改自 Asylum Tracker 2.0.5<br>原插件网址：<a href="https://www.esoui.com/downloads/info2111-AsylumTracker.html">Asylum Tracker</a></p>
+<p><strong>插件问题：</strong></p>
+<ol>
+<li>简中环境下机制提醒与组队框架重叠；</li>
+<li>简中环境下插件设置不显示；</li>
+<li>缺少汉化。</li>
+</ol>
+<p><strong>修改记录：</strong><br>locales&#x2F;zh.lua</p>
+<blockquote>
+<ul>
+<li><small>新增汉化包。</small></li>
+</ul>
+</blockquote>
+<p>src&#x2F;Settings.lua</p>
+<blockquote>
+<ul>
+<li><small>设置中添加中文选项。</small></li>
+</ul>
+</blockquote>
+<p>src&#x2F;UI.lua</p>
+<blockquote>
+<ul>
+<li><small>更换字体。(univers67.otf不支持显示中文，换为MYingHeiPRC-W5.otf)</small></li>
+</ul>
+</blockquote>
+<p>AsylumTracker.txt</p>
+<blockquote>
+<ul>
+<li><small>添加对zh.lua的引用。</small></li>
+</ul>
+</blockquote>
+<p><strong>下载链接：</strong><a href="https://github.com/NonArrendertiMai/nonarrendertimai.github.io/raw/main/download/ESO/AsylumTracker_zh.rar">点此下载</a></p>
+<h2 id="vASHelper"><a href="#vASHelper" class="headerlink" title="vASHelper"></a>vASHelper</h2><p>插件修改自 vASHelper 1.0.3<br>原插件网址：<a href="https://www.esoui.com/downloads/info3556-vASHelper.html">vASHelper</a></p>
+<p><strong>插件问题：</strong></p>
+<ol>
+<li>简中环境进入AS主boss区域，插件不自动生效；</li>
+<li>缺少汉化。</li>
+</ol>
+<p><strong>修改记录：</strong><br>vASHelper.lua</p>
+<blockquote>
+<ul>
+<li><small>增添boss中文名识别，解决插件不自动生效的问题；</small></li>
+<li><small>调整了部分标记的颜色（路线1~8颜色统一，大跳的两个区域改为不同颜色）。</small></li>
+</ul>
+</blockquote>
+<p>vASHelper.xml</p>
+<blockquote>
+<ul>
+<li><small>净化提示汉化。</small></li>
+</ul>
+</blockquote>
+<p>vASHelperMenu.lua</p>
+<blockquote>
+<ul>
+<li><small>插件设置界面汉化。</small></li>
+</ul>
+</blockquote>
+<p><strong>下载链接：</strong><a href="https://github.com/NonArrendertiMai/nonarrendertimai.github.io/raw/main/download/ESO/vASHelper_zh.rar">点此下载</a></p>
+<h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>Asylum Tracker与vASHelper的修改较为理想。</p>
+<p>Asylum Sanctorium Status Panel插件由于并不常用，且在中文环境能正常使用，因而未对齐进行修改及汉化。(若有需要，可以邮件联系我。)</p>
+<p>祝人人均可拿下IR，把把都掉机器人变身。(重击法除外doge)</p>
+]]></content>
+      <categories>
+        <category>ESO</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Hexo功能学习</title>
+    <url>/Study/Hexo-learn/</url>
+    <content><![CDATA[<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><p>折叠</p>
+<span id="more"></span>
+
+<p>代码栏</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
 
 <p>超链接1: <a href="https://www.nonarrendertimai.com/">超链接</a><br>超链接2：[超链接][1]<br>[1]:<a href="https://www.nonarrendertimai.com/">https://www.nonarrendertimai.com</a><br>超链接3：[超链接][chaolj]<br>[chaolj]:<a href="https://www.nonarrendertimai.com/">https://www.nonarrendertimai.com</a><br>超链接4：超链接<a href="https://www.nonarrendertimai.com/">https://www.nonarrendertimai.com</a></p>
 <p><em>文字斜体</em><br><strong>文字加粗</strong><br><em><strong>文字粗斜体</strong></em><br><small>小型文本</small></p>
@@ -171,84 +248,7 @@
 </tbody></table>
 ]]></content>
       <categories>
-        <category>学习</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>庇护圣所(Asylum Sanctorium)插件修改</title>
-    <url>/2023/04/22/%E5%BA%87%E6%8A%A4%E5%9C%A3%E6%89%80-Asylum-Sanctorium-%E6%8F%92%E4%BB%B6%E4%BF%AE%E6%94%B9/</url>
-    <content><![CDATA[<h1 id="插件介绍"><a href="#插件介绍" class="headerlink" title="插件介绍"></a>插件介绍</h1><p>庇护圣所(Asylum Sanctorium)常用插件一般包括：</p>
-<ol>
-<li>Asylum Tracker ：用于机制提醒。</li>
-<li>Asylum Sanctorium Status Panel ：用于监控mini boss狂暴与机制。</li>
-<li>vASHelper ：用于提示站位。</li>
-</ol>
-<span id="more"></span>
-<p>3款插件均无中文，Asylum Tracker与vASHelper无法在中文环境下正常使用，Asylum Sanctorium Status Panel在中文环境下工作正常。遂对Asylum Tracker与vASHelper进行修改。</p>
-<h1 id="插件修改"><a href="#插件修改" class="headerlink" title="插件修改"></a>插件修改</h1><h2 id="Asylum-Tracker"><a href="#Asylum-Tracker" class="headerlink" title="Asylum Tracker"></a>Asylum Tracker</h2><p>插件修改自 Asylum Tracker 2.0.5<br>原插件网址：<a href="https://www.esoui.com/downloads/info2111-AsylumTracker.html">Asylum Tracker</a></p>
-<p><strong>插件问题：</strong></p>
-<ol>
-<li>简中环境下机制提醒与组队框架重叠；</li>
-<li>简中环境下插件设置不显示；</li>
-<li>缺少汉化。</li>
-</ol>
-<p><strong>修改记录：</strong><br>locales&#x2F;zh.lua</p>
-<blockquote>
-<ul>
-<li><small>新增汉化包。</small></li>
-</ul>
-</blockquote>
-<p>src&#x2F;Settings.lua</p>
-<blockquote>
-<ul>
-<li><small>设置中添加中文选项。</small></li>
-</ul>
-</blockquote>
-<p>src&#x2F;UI.lua</p>
-<blockquote>
-<ul>
-<li><small>更换字体。(univers67.otf不支持显示中文，换为MYingHeiPRC-W5.otf)</small></li>
-</ul>
-</blockquote>
-<p>AsylumTracker.txt</p>
-<blockquote>
-<ul>
-<li><small>添加对zh.lua的引用。</small></li>
-</ul>
-</blockquote>
-<p><strong>下载链接：</strong><a href="https://github.com/NonArrendertiMai/nonarrendertimai.github.io/raw/main/download/ESO/AsylumTracker_zh.rar">点此下载</a></p>
-<h2 id="vASHelper"><a href="#vASHelper" class="headerlink" title="vASHelper"></a>vASHelper</h2><p>插件修改自 vASHelper 1.0.3<br>原插件网址：<a href="https://www.esoui.com/downloads/info3556-vASHelper.html">vASHelper</a></p>
-<p><strong>插件问题：</strong></p>
-<ol>
-<li>简中环境进入AS主boss区域，插件不自动生效；</li>
-<li>缺少汉化。</li>
-</ol>
-<p><strong>修改记录：</strong><br>vASHelper.lua</p>
-<blockquote>
-<ul>
-<li><small>增添boss中文名识别，解决插件不自动生效的问题；</small></li>
-<li><small>调整了部分标记的颜色（路线1~8颜色统一，大跳的两个区域改为不同颜色）。</small></li>
-</ul>
-</blockquote>
-<p>vASHelper.xml</p>
-<blockquote>
-<ul>
-<li><small>净化提示汉化。</small></li>
-</ul>
-</blockquote>
-<p>vASHelperMenu.lua</p>
-<blockquote>
-<ul>
-<li><small>插件设置界面汉化。</small></li>
-</ul>
-</blockquote>
-<p><strong>下载链接：</strong><a href="https://github.com/NonArrendertiMai/nonarrendertimai.github.io/raw/main/download/ESO/vASHelper_zh.rar">点此下载</a></p>
-<h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>Asylum Tracker与vASHelper的修改较为理想。</p>
-<p>Asylum Sanctorium Status Panel插件由于并不常用，且在中文环境能正常使用，因而未对齐进行修改及汉化。(若有需要，可以邮件联系我。)</p>
-<p>祝人人均可拿下IR，把把都掉机器人变身。(重击法除外doge)</p>
-]]></content>
-      <categories>
-        <category>上古卷轴OL</category>
+        <category>Study</category>
       </categories>
   </entry>
 </search>
