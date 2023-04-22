@@ -25,4 +25,29 @@
         <category>分享</category>
       </categories>
   </entry>
+  <entry>
+    <title>庇护圣所(Asylum Sanctorium)插件修改</title>
+    <url>/2023/04/22/%E5%BA%87%E6%8A%A4%E5%9C%A3%E6%89%80-Asylum-Sanctorium-%E6%8F%92%E4%BB%B6%E4%BF%AE%E6%94%B9/</url>
+    <content><![CDATA[<h1 id="插件介绍"><a href="#插件介绍" class="headerlink" title="插件介绍"></a>插件介绍</h1><p>庇护圣所(Asylum Sanctorium)常用插件一般包括：</p>
+<ol>
+<li>Asylum Tracker ：用于机制提醒。</li>
+<li>Asylum Sanctorium Status Panel ：用于监控mini boss狂暴与机制。</li>
+<li>vASHelper ：用于提示站位。</li>
+</ol>
+<p>3款插件均无中文，Asylum Tracker与vASHelper仅能在英文环境下正常使用，Asylum Sanctorium Status Panel在中文环境下工作正常。遂对Asylum Tracker与vASHelper进行修改。</p>
+<h1 id="插件修改"><a href="#插件修改" class="headerlink" title="插件修改"></a>插件修改</h1><h2 id="Asylum-Tracker"><a href="#Asylum-Tracker" class="headerlink" title="Asylum Tracker"></a>Asylum Tracker</h2><p>插件修改自Asylum Tracker 2.0.5<br>原插件网址：<a href="https://www.esoui.com/downloads/info2111-AsylumTracker.html">https://www.esoui.com/downloads/info2111-AsylumTracker.html</a></p>
+<p>插件问题：<br>①简中环境下机制提醒与组队框架重叠；<br>②简中环境下插件设置不显示；<br>③缺少汉化。</p>
+<p>修改记录：<br>locales&#x2F;zh.lua<br>    新增汉化包。<br>src&#x2F;Settings.lua<br>    设置中添加中文选项。<br>src&#x2F;UI.lua<br>    更换字体。(univers67.otf不支持显示中文，换为MYingHeiPRC-W5.otf)<br>AsylumTracker.txt<br>    添加对zh.lua的引用。</p>
+<p>修改插件下载链接：</p>
+<h2 id="vASHelper"><a href="#vASHelper" class="headerlink" title="vASHelper"></a>vASHelper</h2><p>插件修改自vASHelper 1.0.3<br>原插件网址：<a href="https://www.esoui.com/downloads/info3556-vASHelper.html">https://www.esoui.com/downloads/info3556-vASHelper.html</a></p>
+<p>插件问题：<br>①简中环境进入AS主boss区域，插件不自动生效；<br>②缺少汉化。</p>
+<p>修改记录：<br>vASHelper.lua<br>    ①增添boss中文名识别，解决插件不自动生效的问题；<br>    ②调整了部分标记的颜色（路线1~8颜色统一，大跳的两个区域改为不同颜色）。<br>vASHelper.xml<br>    净化提示汉化。<br>vASHelperMenu.lua<br>    插件设置界面汉化。</p>
+<p>修改插件下载链接：</p>
+<p>Asylum Sanctorium Status Panel插件由于并不常用，且在中文环境能正常使用，因而未对齐进行修改及汉化。若有需要，可以邮件联系我。</p>
+<p>祝人人均可拿下IR，把把都掉机器人变身。<br>(重击法除外doge)</p>
+]]></content>
+      <categories>
+        <category>上古卷轴OL</category>
+      </categories>
+  </entry>
 </search>
