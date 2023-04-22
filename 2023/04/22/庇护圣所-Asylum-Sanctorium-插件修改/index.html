@@ -20,15 +20,15 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="插件介绍庇护圣所(Asylum Sanctorium)常用插件一般包括：  Asylum Tracker ：用于机制提醒。 Asylum Sanctorium Status Panel ：用于监控mini boss狂暴与机制。 vASHelper ：用于提示站位。  3款插件均无中文，Asylum Tracker与vASHelper仅能在英文环境下正常使用，Asylum Sanctorium St">
+  <meta name="description" content="插件介绍庇护圣所(Asylum Sanctorium)常用插件一般包括：  Asylum Tracker ：用于机制提醒。 Asylum Sanctorium Status Panel ：用于监控mini boss狂暴与机制。 vASHelper ：用于提示站位。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="庇护圣所(Asylum Sanctorium)插件修改">
 <meta property="og:url" content="http://example.com/2023/04/22/%E5%BA%87%E6%8A%A4%E5%9C%A3%E6%89%80-Asylum-Sanctorium-%E6%8F%92%E4%BB%B6%E4%BF%AE%E6%94%B9/index.html">
 <meta property="og:site_name" content="流月NonA &amp; 小窝">
-<meta property="og:description" content="插件介绍庇护圣所(Asylum Sanctorium)常用插件一般包括：  Asylum Tracker ：用于机制提醒。 Asylum Sanctorium Status Panel ：用于监控mini boss狂暴与机制。 vASHelper ：用于提示站位。  3款插件均无中文，Asylum Tracker与vASHelper仅能在英文环境下正常使用，Asylum Sanctorium St">
+<meta property="og:description" content="插件介绍庇护圣所(Asylum Sanctorium)常用插件一般包括：  Asylum Tracker ：用于机制提醒。 Asylum Sanctorium Status Panel ：用于监控mini boss狂暴与机制。 vASHelper ：用于提示站位。">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2023-04-22T15:43:25.000Z">
-<meta property="article:modified_time" content="2023-04-22T16:08:07.496Z">
+<meta property="article:modified_time" content="2023-04-22T17:25:07.407Z">
 <meta property="article:author" content="NonArrendertiMai">
 <meta name="twitter:card" content="summary">
 
@@ -219,7 +219,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2023-04-23 00:08:07" itemprop="dateModified" datetime="2023-04-23T00:08:07+08:00">2023-04-23</time>
+                <time title="修改时间：2023-04-23 01:25:07" itemprop="dateModified" datetime="2023-04-23T01:25:07+08:00">2023-04-23</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -248,17 +248,69 @@
 <li>Asylum Sanctorium Status Panel ：用于监控mini boss狂暴与机制。</li>
 <li>vASHelper ：用于提示站位。</li>
 </ol>
-<p>3款插件均无中文，Asylum Tracker与vASHelper仅能在英文环境下正常使用，Asylum Sanctorium Status Panel在中文环境下工作正常。遂对Asylum Tracker与vASHelper进行修改。</p>
-<h1 id="插件修改"><a href="#插件修改" class="headerlink" title="插件修改"></a>插件修改</h1><h2 id="Asylum-Tracker"><a href="#Asylum-Tracker" class="headerlink" title="Asylum Tracker"></a>Asylum Tracker</h2><p>插件修改自Asylum Tracker 2.0.5<br>原插件网址：<a target="_blank" rel="noopener" href="https://www.esoui.com/downloads/info2111-AsylumTracker.html">https://www.esoui.com/downloads/info2111-AsylumTracker.html</a></p>
-<p>插件问题：<br>①简中环境下机制提醒与组队框架重叠；<br>②简中环境下插件设置不显示；<br>③缺少汉化。</p>
-<p>修改记录：<br>locales&#x2F;zh.lua<br>    新增汉化包。<br>src&#x2F;Settings.lua<br>    设置中添加中文选项。<br>src&#x2F;UI.lua<br>    更换字体。(univers67.otf不支持显示中文，换为MYingHeiPRC-W5.otf)<br>AsylumTracker.txt<br>    添加对zh.lua的引用。</p>
-<p>修改插件下载链接：</p>
-<h2 id="vASHelper"><a href="#vASHelper" class="headerlink" title="vASHelper"></a>vASHelper</h2><p>插件修改自vASHelper 1.0.3<br>原插件网址：<a target="_blank" rel="noopener" href="https://www.esoui.com/downloads/info3556-vASHelper.html">https://www.esoui.com/downloads/info3556-vASHelper.html</a></p>
-<p>插件问题：<br>①简中环境进入AS主boss区域，插件不自动生效；<br>②缺少汉化。</p>
-<p>修改记录：<br>vASHelper.lua<br>    ①增添boss中文名识别，解决插件不自动生效的问题；<br>    ②调整了部分标记的颜色（路线1~8颜色统一，大跳的两个区域改为不同颜色）。<br>vASHelper.xml<br>    净化提示汉化。<br>vASHelperMenu.lua<br>    插件设置界面汉化。</p>
-<p>修改插件下载链接：</p>
-<p>Asylum Sanctorium Status Panel插件由于并不常用，且在中文环境能正常使用，因而未对齐进行修改及汉化。若有需要，可以邮件联系我。</p>
-<p>祝人人均可拿下IR，把把都掉机器人变身。<br>(重击法除外doge)</p>
+<span id="more"></span>
+<p>3款插件均无中文，Asylum Tracker与vASHelper无法在中文环境下正常使用，Asylum Sanctorium Status Panel在中文环境下工作正常。遂对Asylum Tracker与vASHelper进行修改。</p>
+<h1 id="插件修改"><a href="#插件修改" class="headerlink" title="插件修改"></a>插件修改</h1><h2 id="Asylum-Tracker"><a href="#Asylum-Tracker" class="headerlink" title="Asylum Tracker"></a>Asylum Tracker</h2><p>插件修改自 Asylum Tracker 2.0.5<br>原插件网址：<a target="_blank" rel="noopener" href="https://www.esoui.com/downloads/info2111-AsylumTracker.html">Asylum Tracker</a></p>
+<p><strong>插件问题：</strong></p>
+<ol>
+<li>简中环境下机制提醒与组队框架重叠；</li>
+<li>简中环境下插件设置不显示；</li>
+<li>缺少汉化。</li>
+</ol>
+<p><strong>修改记录：</strong><br>locales&#x2F;zh.lua</p>
+<blockquote>
+<ul>
+<li><small>新增汉化包。</small></li>
+</ul>
+</blockquote>
+<p>src&#x2F;Settings.lua</p>
+<blockquote>
+<ul>
+<li><small>设置中添加中文选项。</small></li>
+</ul>
+</blockquote>
+<p>src&#x2F;UI.lua</p>
+<blockquote>
+<ul>
+<li><small>更换字体。(univers67.otf不支持显示中文，换为MYingHeiPRC-W5.otf)</small></li>
+</ul>
+</blockquote>
+<p>AsylumTracker.txt</p>
+<blockquote>
+<ul>
+<li><small>添加对zh.lua的引用。</small></li>
+</ul>
+</blockquote>
+<p><strong>下载链接：</strong><a target="_blank" rel="noopener" href="https://github.com/NonArrendertiMai/nonarrendertimai.github.io/raw/main/download/ESO/AsylumTracker_zh.rar">点此下载</a></p>
+<h2 id="vASHelper"><a href="#vASHelper" class="headerlink" title="vASHelper"></a>vASHelper</h2><p>插件修改自 vASHelper 1.0.3<br>原插件网址：<a target="_blank" rel="noopener" href="https://www.esoui.com/downloads/info3556-vASHelper.html">vASHelper</a></p>
+<p><strong>插件问题：</strong></p>
+<ol>
+<li>简中环境进入AS主boss区域，插件不自动生效；</li>
+<li>缺少汉化。</li>
+</ol>
+<p><strong>修改记录：</strong><br>vASHelper.lua</p>
+<blockquote>
+<ul>
+<li><small>增添boss中文名识别，解决插件不自动生效的问题；</small></li>
+<li><small>调整了部分标记的颜色（路线1~8颜色统一，大跳的两个区域改为不同颜色）。</small></li>
+</ul>
+</blockquote>
+<p>vASHelper.xml</p>
+<blockquote>
+<ul>
+<li><small>净化提示汉化。</small></li>
+</ul>
+</blockquote>
+<p>vASHelperMenu.lua</p>
+<blockquote>
+<ul>
+<li><small>插件设置界面汉化。</small></li>
+</ul>
+</blockquote>
+<p><strong>下载链接：</strong><a target="_blank" rel="noopener" href="https://github.com/NonArrendertiMai/nonarrendertimai.github.io/raw/main/download/ESO/vASHelper_zh.rar">点此下载</a></p>
+<h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>Asylum Tracker与vASHelper的修改较为理想。</p>
+<p>Asylum Sanctorium Status Panel插件由于并不常用，且在中文环境能正常使用，因而未对齐进行修改及汉化。(若有需要，可以邮件联系我。)</p>
+<p>祝人人均可拿下IR，把把都掉机器人变身。(重击法除外doge)</p>
 
     </div>
 
@@ -274,8 +326,8 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2023/04/17/hello-world/" rel="prev" title="Hello World">
-      <i class="fa fa-chevron-left"></i> Hello World
+    <a href="/2023/04/17/hello-world/" rel="prev" title="Hexo功能记录">
+      <i class="fa fa-chevron-left"></i> Hexo功能记录
     </a></div>
       <div class="post-nav-item"></div>
     </div>
@@ -336,7 +388,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%8F%92%E4%BB%B6%E4%BB%8B%E7%BB%8D"><span class="nav-number">1.</span> <span class="nav-text">插件介绍</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%8F%92%E4%BB%B6%E4%BF%AE%E6%94%B9"><span class="nav-number">2.</span> <span class="nav-text">插件修改</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Asylum-Tracker"><span class="nav-number">2.1.</span> <span class="nav-text">Asylum Tracker</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#vASHelper"><span class="nav-number">2.2.</span> <span class="nav-text">vASHelper</span></a></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%8F%92%E4%BB%B6%E4%BB%8B%E7%BB%8D"><span class="nav-number">1.</span> <span class="nav-text">插件介绍</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%8F%92%E4%BB%B6%E4%BF%AE%E6%94%B9"><span class="nav-number">2.</span> <span class="nav-text">插件修改</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Asylum-Tracker"><span class="nav-number">2.1.</span> <span class="nav-text">Asylum Tracker</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#vASHelper"><span class="nav-number">2.2.</span> <span class="nav-text">vASHelper</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%80%BB%E7%BB%93"><span class="nav-number">3.</span> <span class="nav-text">总结</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -359,7 +411,7 @@
       <div class="site-state-item site-state-categories">
             <a href="/categories/">
           
-        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-count">2</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
   </nav>
