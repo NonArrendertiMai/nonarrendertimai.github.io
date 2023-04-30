@@ -1,18 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>ESO-Trials-Addons</title>
-    <url>/uncategorized/ESO-Trials-Addons/</url>
-    <content><![CDATA[<p>ESO插件汇总</p>
+    <title>庇护圣所(Asylum Sanctorium)插件修改</title>
+    <url>/ESO/Asylum-Sanctorium-Addons/</url>
+    <content><![CDATA[<h1 id="插件介绍"><a href="#插件介绍" class="headerlink" title="插件介绍"></a>插件介绍</h1><p>庇护圣所(Asylum Sanctorium)常用插件一般包括：</p>
+<ol>
+<li>Asylum Tracker ：用于机制提醒。</li>
+<li>Asylum Sanctorium Status Panel ：用于监控mini boss狂暴与机制。</li>
+<li>vASHelper ：用于提示站位。</li>
+</ol>
+<span id="more"></span>
+<p>3款插件均无中文，Asylum Tracker与vASHelper无法在中文环境下正常使用，Asylum Sanctorium Status Panel在中文环境下工作正常。遂对Asylum Tracker与vASHelper进行汉化与修复。</p>
+<h1 id="插件修改"><a href="#插件修改" class="headerlink" title="插件修改"></a>插件修改</h1><h2 id="Asylum-Tracker"><a href="#Asylum-Tracker" class="headerlink" title="Asylum Tracker"></a>Asylum Tracker</h2><p>插件修改自 Asylum Tracker 2.0.5<br>原插件网址：<a href="https://www.esoui.com/downloads/info2111-AsylumTracker.html">Asylum Tracker</a></p>
+<p><strong>插件问题：</strong></p>
+<ol>
+<li>简中环境下机制提醒与组队框架重叠；</li>
+<li>简中环境下插件设置不显示；</li>
+<li>缺少汉化。</li>
+</ol>
+<p><strong>修改记录：</strong><br>locales&#x2F;zh.lua</p>
+<blockquote>
+<ul>
+<li><small>新增汉化包。</small></li>
+</ul>
+</blockquote>
+<p>src&#x2F;Settings.lua</p>
+<blockquote>
+<ul>
+<li><small>设置中添加中文选项。</small></li>
+</ul>
+</blockquote>
+<p>src&#x2F;UI.lua</p>
+<blockquote>
+<ul>
+<li><small>更换字体。(univers67.otf不支持显示中文，换为MYingHeiPRC-W5.otf)</small></li>
+</ul>
+</blockquote>
+<p>AsylumTracker.txt</p>
+<blockquote>
+<ul>
+<li><small>添加对zh.lua的引用。</small></li>
+</ul>
+</blockquote>
+<img src="https://nonarrendertimai.github.io/img/astracker01.jpg" width="960">
+
+<img src="https://nonarrendertimai.github.io/img/astracker02.jpg" width="960">
+
+<p><strong>下载链接：</strong><a href="https://github.com/NonArrendertiMai/nonarrendertimai.github.io/raw/main/download/ESO/AsylumTracker_zh.rar">点此下载</a></p>
+<h2 id="vASHelper"><a href="#vASHelper" class="headerlink" title="vASHelper"></a>vASHelper</h2><p>插件修改自 vASHelper 1.0.3<br>原插件网址：<a href="https://www.esoui.com/downloads/info3556-vASHelper.html">vASHelper</a></p>
+<p><strong>插件问题：</strong></p>
+<ol>
+<li>简中环境进入AS主boss区域，插件不自动生效；</li>
+<li>缺少汉化。</li>
+</ol>
+<p><strong>修改记录：</strong><br>vASHelper.lua</p>
+<blockquote>
+<ul>
+<li><small>增添boss中文名识别，解决插件不自动生效的问题；</small></li>
+<li><small>调整了部分标记的颜色（路线1~8颜色统一，大跳的两个区域改为不同颜色）。</small></li>
+</ul>
+</blockquote>
+<p>vASHelper.xml</p>
+<blockquote>
+<ul>
+<li><small>净化提示汉化。</small></li>
+</ul>
+</blockquote>
+<p>vASHelperMenu.lua</p>
+<blockquote>
+<ul>
+<li><small>插件设置界面汉化。</small></li>
+</ul>
+</blockquote>
+<img src="https://nonarrendertimai.github.io/img/vashelper01.jpg" width="960">
+
+<img src="https://nonarrendertimai.github.io/img/vashelper02.jpg" width="960">
+
+<p><strong>下载链接：</strong><a href="https://github.com/NonArrendertiMai/nonarrendertimai.github.io/raw/main/download/ESO/vASHelper_zh.rar">点此下载</a></p>
+<h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>Asylum Tracker与vASHelper的修改较为理想。</p>
+<p>Asylum Sanctorium Status Panel插件由于并不常用，且在中文环境能正常使用，因而未对其进行修改及汉化。(若有需要，可以邮件联系我。)</p>
+<p>祝人人均可拿下IR，把把都掉机器人变身。(重击法除外doge)</p>
+
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
+<iframe src="//player.bilibili.com/player.html?aid=224133244&bvid=BV158411T7yu&cid=1002407865&page=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; Left: 0; top: 0;" > </iframe></div>
 ]]></content>
-      <tags>
-        <tag>ESO</tag>
-      </tags>
+      <categories>
+        <category>ESO</category>
+      </categories>
   </entry>
   <entry>
     <title>云栖城(Cloudrest)插件修改</title>
-    <url>/uncategorized/Cloudrest-Addons/</url>
-    <content><![CDATA[<h1 id="插件介绍"><a href="#插件介绍" class="headerlink" title="插件介绍"></a>插件介绍</h1><p>云栖城(Cloudrest-Addons)通常使用插件：</p>
+    <url>/ESO/Cloudrest-Addons/</url>
+    <content><![CDATA[<h1 id="插件介绍"><a href="#插件介绍" class="headerlink" title="插件介绍"></a>插件介绍</h1><p>云栖城(Cloudrest)通常使用插件：</p>
 <ol>
 <li>HowToCloudrest ：用于机制提醒。</li>
 </ol>
@@ -52,97 +131,10 @@
 <img src="https://nonarrendertimai.github.io/img/howtocr02.jpg" width="960">
 
 <p><strong>下载链接：</strong><a href="https://github.com/NonArrendertiMai/nonarrendertimai.github.io/raw/main/download/ESO/HowToCloudrest_zh.rar">点此下载</a></p>
-<h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>HowToCloudrest的汉化较为理想。</p>
-<p>由于没有现成的Boss技能官中译名对照数据，技能名逐条对照真的难受TT。</p>
+<h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>HowToCloudrest汉化基本完成，部分译名有待商榷（比如藤蔓，游戏里叫做“暗夜匍匐者”，解包数据里为“暗夜爬藤”）。</p>
 
 <div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
 <iframe src="//player.bilibili.com/player.html?aid=433405590&bvid=BV1tG411T73y&cid=912507126&page=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; Left: 0; top: 0;" > </iframe></div>
-]]></content>
-      <tags>
-        <tag>ESO</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>庇护圣所(Asylum Sanctorium)插件修改</title>
-    <url>/ESO/Asylum-Sanctorium-Addons/</url>
-    <content><![CDATA[<h1 id="插件介绍"><a href="#插件介绍" class="headerlink" title="插件介绍"></a>插件介绍</h1><p>庇护圣所(Asylum Sanctorium)常用插件一般包括：</p>
-<ol>
-<li>Asylum Tracker ：用于机制提醒。</li>
-<li>Asylum Sanctorium Status Panel ：用于监控mini boss狂暴与机制。</li>
-<li>vASHelper ：用于提示站位。</li>
-</ol>
-<span id="more"></span>
-<p>3款插件均无中文，Asylum Tracker与vASHelper无法在中文环境下正常使用，Asylum Sanctorium Status Panel在中文环境下工作正常。遂对Asylum Tracker与vASHelper进行修改。</p>
-<h1 id="插件修改"><a href="#插件修改" class="headerlink" title="插件修改"></a>插件修改</h1><h2 id="Asylum-Tracker"><a href="#Asylum-Tracker" class="headerlink" title="Asylum Tracker"></a>Asylum Tracker</h2><p>插件修改自 Asylum Tracker 2.0.5<br>原插件网址：<a href="https://www.esoui.com/downloads/info2111-AsylumTracker.html">Asylum Tracker</a></p>
-<p><strong>插件问题：</strong></p>
-<ol>
-<li>简中环境下机制提醒与组队框架重叠；</li>
-<li>简中环境下插件设置不显示；</li>
-<li>缺少汉化。</li>
-</ol>
-<p><strong>修改记录：</strong><br>locales&#x2F;zh.lua</p>
-<blockquote>
-<ul>
-<li><small>新增汉化包。</small></li>
-</ul>
-</blockquote>
-<p>src&#x2F;Settings.lua</p>
-<blockquote>
-<ul>
-<li><small>设置中添加中文选项。</small></li>
-</ul>
-</blockquote>
-<p>src&#x2F;UI.lua</p>
-<blockquote>
-<ul>
-<li><small>更换字体。(univers67.otf不支持显示中文，换为MYingHeiPRC-W5.otf)</small></li>
-</ul>
-</blockquote>
-<p>AsylumTracker.txt</p>
-<blockquote>
-<ul>
-<li><small>添加对zh.lua的引用。</small></li>
-</ul>
-</blockquote>
-<img src="https://nonarrendertimai.github.io/img/astracker.jpg" width="960">
-
-<p><strong>下载链接：</strong><a href="https://github.com/NonArrendertiMai/nonarrendertimai.github.io/raw/main/download/ESO/AsylumTracker_zh.rar">点此下载</a></p>
-<h2 id="vASHelper"><a href="#vASHelper" class="headerlink" title="vASHelper"></a>vASHelper</h2><p>插件修改自 vASHelper 1.0.3<br>原插件网址：<a href="https://www.esoui.com/downloads/info3556-vASHelper.html">vASHelper</a></p>
-<p><strong>插件问题：</strong></p>
-<ol>
-<li>简中环境进入AS主boss区域，插件不自动生效；</li>
-<li>缺少汉化。</li>
-</ol>
-<p><strong>修改记录：</strong><br>vASHelper.lua</p>
-<blockquote>
-<ul>
-<li><small>增添boss中文名识别，解决插件不自动生效的问题；</small></li>
-<li><small>调整了部分标记的颜色（路线1~8颜色统一，大跳的两个区域改为不同颜色）。</small></li>
-</ul>
-</blockquote>
-<p>vASHelper.xml</p>
-<blockquote>
-<ul>
-<li><small>净化提示汉化。</small></li>
-</ul>
-</blockquote>
-<p>vASHelperMenu.lua</p>
-<blockquote>
-<ul>
-<li><small>插件设置界面汉化。</small></li>
-</ul>
-</blockquote>
-<img src="https://nonarrendertimai.github.io/img/vashelper01.jpg" width="960">
-
-<img src="https://nonarrendertimai.github.io/img/vashelper02.jpg" width="960">
-
-<p><strong>下载链接：</strong><a href="https://github.com/NonArrendertiMai/nonarrendertimai.github.io/raw/main/download/ESO/vASHelper_zh.rar">点此下载</a></p>
-<h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>Asylum Tracker与vASHelper的修改较为理想。</p>
-<p>Asylum Sanctorium Status Panel插件由于并不常用，且在中文环境能正常使用，因而未对其进行修改及汉化。(若有需要，可以邮件联系我。)</p>
-<p>祝人人均可拿下IR，把把都掉机器人变身。(重击法除外doge)</p>
-
-<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
-<iframe src="//player.bilibili.com/player.html?aid=224133244&bvid=BV158411T7yu&cid=1002407865&page=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; Left: 0; top: 0;" > </iframe></div>
 ]]></content>
       <categories>
         <category>ESO</category>
@@ -320,6 +312,67 @@
 ]]></content>
       <categories>
         <category>Study</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>太阳尖顶(Sunspire)插件修改</title>
+    <url>/ESO/Sunspire-Addons/</url>
+    <content><![CDATA[<h1 id="插件介绍"><a href="#插件介绍" class="headerlink" title="插件介绍"></a>插件介绍</h1><p>太阳尖顶(Sunspire)通常使用插件：</p>
+<ol>
+<li>HowToSunspire ：用于机制提醒。</li>
+</ol>
+<span id="more"></span>
+<p>HowToSunspire插件无中文，中文环境下部分监控失效。遂对HowToSunspire进行汉化和功能修复。</p>
+<h1 id="插件修改"><a href="#插件修改" class="headerlink" title="插件修改"></a>插件修改</h1><h2 id="HowToSunspire"><a href="#HowToSunspire" class="headerlink" title="HowToSunspire"></a>HowToSunspire</h2><p>插件修改自 HowToSunspire 1.3.10<br>原插件网址：<a href="https://www.esoui.com/downloads/info2430-HowToSunspire.html">HowToSunspire</a></p>
+<p><strong>插件问题：</strong></p>
+<ol>
+<li>简中环境下部分监控不显示；</li>
+<li>缺少汉化。</li>
+</ol>
+<p><strong>修改记录：</strong><br>HowToSunspire.lua</p>
+<blockquote>
+<ul>
+<li><small>增添Boss中文名识别，解决插件部分监控失效的问题。</small></li>
+<li><small>部分提醒汉化。</small></li>
+<li><small>更换字体。(univers67.otf不支持显示中文，换为MYingHeiPRC-W5.otf)</small></li>
+</ul>
+</blockquote>
+<p>HowToSunspire.xml</p>
+<blockquote>
+<ul>
+<li><small>部分提醒汉化。</small></li>
+</ul>
+</blockquote>
+<p>HowToSunspireSettings.lua</p>
+<blockquote>
+<ul>
+<li><small>设置界面汉化。</small></li>
+</ul>
+</blockquote>
+<p>HowToSunspireUI.lua</p>
+<blockquote>
+<ul>
+<li><small>更换字体。(univers67.otf不支持显示中文，换为MYingHeiPRC-W5.otf)</small></li>
+</ul>
+</blockquote>
+<img src="https://nonarrendertimai.github.io/img/howtoss01.jpg" width="960">
+
+<img src="https://nonarrendertimai.github.io/img/howtoss02.jpg" width="960">
+
+<p><strong>下载链接：</strong><a href="https://github.com/NonArrendertiMai/nonarrendertimai.github.io/raw/main/download/ESO/HowToSunspire_zh.rar">点此下载</a></p>
+<h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>HowToSunspire功能修复完成，汉化基本完成，需要后续进一步实战检测。</p>
+]]></content>
+      <categories>
+        <category>ESO</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>ESO-Trials-Addons</title>
+    <url>/ESO/ESO-Trials-Addons/</url>
+    <content><![CDATA[<p>ESO插件汇总</p>
+]]></content>
+      <categories>
+        <category>ESO</category>
       </categories>
   </entry>
 </search>
