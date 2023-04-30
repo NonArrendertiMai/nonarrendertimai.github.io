@@ -1,6 +1,141 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>ESO试炼插件汇总</title>
+    <url>/ESO/ESO-Trials-Addons/</url>
+    <content><![CDATA[<h1 id="庇护圣所-Asylum-Sanctorium-插件"><a href="#庇护圣所-Asylum-Sanctorium-插件" class="headerlink" title="庇护圣所(Asylum Sanctorium)插件"></a>庇护圣所(Asylum Sanctorium)插件</h1><ol>
+<li>Asylum Tracker</li>
+<li>vASHelper</li>
+</ol>
+<p><a href="http://nonarrendertimai.com/ESO/Asylum-Sanctorium-Addons/">点此跳转</a></p>
+<h1 id="云栖城-Cloudrest-插件"><a href="#云栖城-Cloudrest-插件" class="headerlink" title="云栖城(Cloudrest)插件"></a>云栖城(Cloudrest)插件</h1><ol>
+<li>HowToCloudrest</li>
+</ol>
+<p><a href="http://nonarrendertimai.com/ESO/Cloudrest-Addons/">点此跳转</a></p>
+<h1 id="太阳尖顶-Sunspire-插件"><a href="#太阳尖顶-Sunspire-插件" class="headerlink" title="太阳尖顶(Sunspire)插件"></a>太阳尖顶(Sunspire)插件</h1><ol>
+<li>HowToSunspire</li>
+</ol>
+<p><a href="http://nonarrendertimai.com/ESO/Sunspire-Addons/">点此跳转</a></p>
+<h1 id="凯恩之盾-Kyne’s-Aegis-插件"><a href="#凯恩之盾-Kyne’s-Aegis-插件" class="headerlink" title="凯恩之盾(Kyne’s Aegis)插件"></a>凯恩之盾(Kyne’s Aegis)插件</h1><ol>
+<li>BSCs-HowToKynesAegis</li>
+</ol>
+<p>等待更新</p>
+<h1 id="石林-Rockgrove-插件"><a href="#石林-Rockgrove-插件" class="headerlink" title="石林(Rockgrove)插件"></a>石林(Rockgrove)插件</h1><ol>
+<li>Qcell’s Rockgrove Helper</li>
+</ol>
+<p>等待更新</p>
+<h1 id="试炼插件整合包"><a href="#试炼插件整合包" class="headerlink" title="试炼插件整合包"></a>试炼插件整合包</h1><p>等待各试炼插件修改完毕后整合</p>
+<p>下载地址：<a href="http://nonarrendertimai.com/ESO/ESO-Trials-Addons/">暂无</a></p>
+]]></content>
+      <categories>
+        <category>ESO</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>太阳尖顶(Sunspire)插件修改</title>
+    <url>/ESO/Sunspire-Addons/</url>
+    <content><![CDATA[<h1 id="插件介绍"><a href="#插件介绍" class="headerlink" title="插件介绍"></a>插件介绍</h1><p>太阳尖顶(Sunspire)通常使用插件：</p>
+<ol>
+<li>HowToSunspire ：用于机制提醒。</li>
+</ol>
+<span id="more"></span>
+<p>HowToSunspire插件无中文，中文环境下部分监控失效。遂对HowToSunspire进行汉化和功能修复。</p>
+<h1 id="插件修改"><a href="#插件修改" class="headerlink" title="插件修改"></a>插件修改</h1><h2 id="HowToSunspire"><a href="#HowToSunspire" class="headerlink" title="HowToSunspire"></a>HowToSunspire</h2><p>插件修改自 HowToSunspire 1.3.10<br>原插件网址：<a href="https://www.esoui.com/downloads/info2430-HowToSunspire.html">HowToSunspire</a></p>
+<p><strong>插件问题：</strong></p>
+<ol>
+<li>简中环境下部分监控不显示；</li>
+<li>缺少汉化。</li>
+</ol>
+<p><strong>修改记录：</strong><br>HowToSunspire.lua</p>
+<blockquote>
+<ul>
+<li><small>增添Boss中文名识别，解决插件部分监控失效的问题。</small></li>
+<li><small>部分提醒汉化。</small></li>
+<li><small>更换字体。(univers67.otf不支持显示中文，换为MYingHeiPRC-W5.otf)</small></li>
+</ul>
+</blockquote>
+<p>HowToSunspire.xml</p>
+<blockquote>
+<ul>
+<li><small>部分提醒汉化。</small></li>
+</ul>
+</blockquote>
+<p>HowToSunspireSettings.lua</p>
+<blockquote>
+<ul>
+<li><small>设置界面汉化。</small></li>
+</ul>
+</blockquote>
+<p>HowToSunspireUI.lua</p>
+<blockquote>
+<ul>
+<li><small>更换字体。(univers67.otf不支持显示中文，换为MYingHeiPRC-W5.otf)</small></li>
+</ul>
+</blockquote>
+<img src="https://nonarrendertimai.github.io/img/howtoss01.jpg" width="960">
+
+<img src="https://nonarrendertimai.github.io/img/howtoss02.jpg" width="960">
+
+<p><strong>下载链接：</strong><a href="https://github.com/NonArrendertiMai/nonarrendertimai.github.io/raw/main/download/ESO/HowToSunspire_zh.rar">点此下载</a></p>
+<h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>HowToSunspire功能修复完成，汉化基本完成，需要后续进一步实战检测。</p>
+]]></content>
+      <categories>
+        <category>ESO</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>云栖城(Cloudrest)插件修改</title>
+    <url>/ESO/Cloudrest-Addons/</url>
+    <content><![CDATA[<h1 id="插件介绍"><a href="#插件介绍" class="headerlink" title="插件介绍"></a>插件介绍</h1><p>云栖城(Cloudrest)通常使用插件：</p>
+<ol>
+<li>HowToCloudrest ：用于机制提醒。</li>
+</ol>
+<span id="more"></span>
+<p>HowToCloudrest插件无中文，但在中文环境下工作正常。遂对HowToCloudrest进行汉化修改。</p>
+<h1 id="插件修改"><a href="#插件修改" class="headerlink" title="插件修改"></a>插件修改</h1><h2 id="HowToCloudrest"><a href="#HowToCloudrest" class="headerlink" title="HowToCloudrest"></a>HowToCloudrest</h2><p>插件修改自 HowToCloudrest 1.2.2<br>原插件网址：<a href="https://www.esoui.com/downloads/info3497-HowToCloudrest.html">HowToCloudrest</a></p>
+<p><strong>插件问题：</strong></p>
+<ol>
+<li>缺少汉化。</li>
+</ol>
+<p><strong>修改记录：</strong><br>HowToCloudrest.xml</p>
+<blockquote>
+<ul>
+<li><small>mini Boss框架与重击提醒汉化。</small></li>
+</ul>
+</blockquote>
+<p>HowToCloudrestAux.lua</p>
+<blockquote>
+<ul>
+<li><small>大部分提醒汉化。</small></li>
+</ul>
+</blockquote>
+<p>HowToCloudrestSettings.lua</p>
+<blockquote>
+<ul>
+<li><small>设置界面汉化。</small></li>
+</ul>
+</blockquote>
+<p>HowToCloudrestUI.lua</p>
+<blockquote>
+<ul>
+<li><small>更换字体(univers67.otf不支持显示中文，换为MYingHeiPRC-W5.otf)、定身提醒汉化。</small></li>
+</ul>
+</blockquote>
+<img src="https://nonarrendertimai.github.io/img/howtocr01.jpg" width="960">
+
+<img src="https://nonarrendertimai.github.io/img/howtocr02.jpg" width="960">
+
+<p><strong>下载链接：</strong><a href="https://github.com/NonArrendertiMai/nonarrendertimai.github.io/raw/main/download/ESO/HowToCloudrest_zh.rar">点此下载</a></p>
+<h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>HowToCloudrest汉化基本完成，部分译名有待商榷（比如藤蔓，游戏里叫做“暗夜匍匐者”，解包数据里为“暗夜爬藤”）。</p>
+
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
+<iframe src="//player.bilibili.com/player.html?aid=433405590&bvid=BV1tG411T73y&cid=912507126&page=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; Left: 0; top: 0;" > </iframe></div>
+]]></content>
+      <categories>
+        <category>ESO</category>
+      </categories>
+  </entry>
+  <entry>
     <title>庇护圣所(Asylum Sanctorium)插件修改</title>
     <url>/ESO/Asylum-Sanctorium-Addons/</url>
     <content><![CDATA[<h1 id="插件介绍"><a href="#插件介绍" class="headerlink" title="插件介绍"></a>插件介绍</h1><p>庇护圣所(Asylum Sanctorium)常用插件一般包括：</p>
@@ -83,58 +218,6 @@
 
 <div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
 <iframe src="//player.bilibili.com/player.html?aid=224133244&bvid=BV158411T7yu&cid=1002407865&page=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; Left: 0; top: 0;" > </iframe></div>
-]]></content>
-      <categories>
-        <category>ESO</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>云栖城(Cloudrest)插件修改</title>
-    <url>/ESO/Cloudrest-Addons/</url>
-    <content><![CDATA[<h1 id="插件介绍"><a href="#插件介绍" class="headerlink" title="插件介绍"></a>插件介绍</h1><p>云栖城(Cloudrest)通常使用插件：</p>
-<ol>
-<li>HowToCloudrest ：用于机制提醒。</li>
-</ol>
-<span id="more"></span>
-<p>HowToCloudrest插件无中文，但在中文环境下工作正常。遂对HowToCloudrest进行汉化修改。</p>
-<h1 id="插件修改"><a href="#插件修改" class="headerlink" title="插件修改"></a>插件修改</h1><h2 id="HowToCloudrest"><a href="#HowToCloudrest" class="headerlink" title="HowToCloudrest"></a>HowToCloudrest</h2><p>插件修改自 HowToCloudrest 1.2.2<br>原插件网址：<a href="https://www.esoui.com/downloads/info3497-HowToCloudrest.html">HowToCloudrest</a></p>
-<p><strong>插件问题：</strong></p>
-<ol>
-<li>缺少汉化。</li>
-</ol>
-<p><strong>修改记录：</strong><br>HowToCloudrest.xml</p>
-<blockquote>
-<ul>
-<li><small>mini Boss框架与重击提醒汉化。</small></li>
-</ul>
-</blockquote>
-<p>HowToCloudrestAux.lua</p>
-<blockquote>
-<ul>
-<li><small>大部分提醒汉化。</small></li>
-</ul>
-</blockquote>
-<p>HowToCloudrestSettings.lua</p>
-<blockquote>
-<ul>
-<li><small>设置界面汉化。</small></li>
-</ul>
-</blockquote>
-<p>HowToCloudrestUI.lua</p>
-<blockquote>
-<ul>
-<li><small>更换字体(univers67.otf不支持显示中文，换为MYingHeiPRC-W5.otf)、定身提醒汉化。</small></li>
-</ul>
-</blockquote>
-<img src="https://nonarrendertimai.github.io/img/howtocr01.jpg" width="960">
-
-<img src="https://nonarrendertimai.github.io/img/howtocr02.jpg" width="960">
-
-<p><strong>下载链接：</strong><a href="https://github.com/NonArrendertiMai/nonarrendertimai.github.io/raw/main/download/ESO/HowToCloudrest_zh.rar">点此下载</a></p>
-<h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>HowToCloudrest汉化基本完成，部分译名有待商榷（比如藤蔓，游戏里叫做“暗夜匍匐者”，解包数据里为“暗夜爬藤”）。</p>
-
-<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
-<iframe src="//player.bilibili.com/player.html?aid=433405590&bvid=BV1tG411T73y&cid=912507126&page=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; Left: 0; top: 0;" > </iframe></div>
 ]]></content>
       <categories>
         <category>ESO</category>
@@ -312,67 +395,6 @@
 ]]></content>
       <categories>
         <category>Study</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>太阳尖顶(Sunspire)插件修改</title>
-    <url>/ESO/Sunspire-Addons/</url>
-    <content><![CDATA[<h1 id="插件介绍"><a href="#插件介绍" class="headerlink" title="插件介绍"></a>插件介绍</h1><p>太阳尖顶(Sunspire)通常使用插件：</p>
-<ol>
-<li>HowToSunspire ：用于机制提醒。</li>
-</ol>
-<span id="more"></span>
-<p>HowToSunspire插件无中文，中文环境下部分监控失效。遂对HowToSunspire进行汉化和功能修复。</p>
-<h1 id="插件修改"><a href="#插件修改" class="headerlink" title="插件修改"></a>插件修改</h1><h2 id="HowToSunspire"><a href="#HowToSunspire" class="headerlink" title="HowToSunspire"></a>HowToSunspire</h2><p>插件修改自 HowToSunspire 1.3.10<br>原插件网址：<a href="https://www.esoui.com/downloads/info2430-HowToSunspire.html">HowToSunspire</a></p>
-<p><strong>插件问题：</strong></p>
-<ol>
-<li>简中环境下部分监控不显示；</li>
-<li>缺少汉化。</li>
-</ol>
-<p><strong>修改记录：</strong><br>HowToSunspire.lua</p>
-<blockquote>
-<ul>
-<li><small>增添Boss中文名识别，解决插件部分监控失效的问题。</small></li>
-<li><small>部分提醒汉化。</small></li>
-<li><small>更换字体。(univers67.otf不支持显示中文，换为MYingHeiPRC-W5.otf)</small></li>
-</ul>
-</blockquote>
-<p>HowToSunspire.xml</p>
-<blockquote>
-<ul>
-<li><small>部分提醒汉化。</small></li>
-</ul>
-</blockquote>
-<p>HowToSunspireSettings.lua</p>
-<blockquote>
-<ul>
-<li><small>设置界面汉化。</small></li>
-</ul>
-</blockquote>
-<p>HowToSunspireUI.lua</p>
-<blockquote>
-<ul>
-<li><small>更换字体。(univers67.otf不支持显示中文，换为MYingHeiPRC-W5.otf)</small></li>
-</ul>
-</blockquote>
-<img src="https://nonarrendertimai.github.io/img/howtoss01.jpg" width="960">
-
-<img src="https://nonarrendertimai.github.io/img/howtoss02.jpg" width="960">
-
-<p><strong>下载链接：</strong><a href="https://github.com/NonArrendertiMai/nonarrendertimai.github.io/raw/main/download/ESO/HowToSunspire_zh.rar">点此下载</a></p>
-<h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>HowToSunspire功能修复完成，汉化基本完成，需要后续进一步实战检测。</p>
-]]></content>
-      <categories>
-        <category>ESO</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>ESO-Trials-Addons</title>
-    <url>/ESO/ESO-Trials-Addons/</url>
-    <content><![CDATA[<p>ESO插件汇总</p>
-]]></content>
-      <categories>
-        <category>ESO</category>
       </categories>
   </entry>
 </search>
